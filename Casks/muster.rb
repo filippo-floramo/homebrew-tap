@@ -4,21 +4,21 @@ cask "muster" do
 
   on_macos do
     on_arm do
-      sha256 "0cb3bed1142dae3326a0692e3c2a73e94c9b04550daeeefefeb2afb2b9297f67"
+      sha256 "a5685dab5ebf0a7bc1440098d4686dab5f6570af1ba78eff55388a5475b133e0"
       url "https://github.com/filippo-floramo/muster/releases/download/v#{version}/muster_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "273c0b9d054efb0ceb934cd1fcfc4a0772c6cb90e279e28c53c859942311f990"
+      sha256 "1d78094ca2a6c702288a6809e6e592848980c68450d5077f47c83e39764eba41"
       url "https://github.com/filippo-floramo/muster/releases/download/v#{version}/muster_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "6e30fd83b127eb186eaf872a626d11749ed0f371938ec0c1a29778e04e787de3"
+      sha256 "e434b33aff296228e76918db1ba3eb4b5e8406fa4915c7c16e89ba606012a4d6"
       url "https://github.com/filippo-floramo/muster/releases/download/v#{version}/muster_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "db373438e7e6b58ff5927793eee192c042c57c883e8f275df54163aed21ed237"
+      sha256 "da83e829eccca6becea35bd794c2de3d4b707168cdd039724793e2e2ff0ba0d5"
       url "https://github.com/filippo-floramo/muster/releases/download/v#{version}/muster_#{version}_linux_amd64.tar.gz"
     end
   end
